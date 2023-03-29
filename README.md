@@ -85,7 +85,7 @@ psql -U <username> -d <databasename> -f queries.sql
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Key Features <a name="key-features"></a>
+### Future Features <a name="key-features"></a>
 
 - **[Implementing data validation]**
 - **[Integration with external APIs]**
