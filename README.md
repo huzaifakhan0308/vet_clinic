@@ -89,6 +89,8 @@ psql -U <username> -d <databasename> -f queries.sql
 
 ## 🤝 Contributing <a name="contributing"></a>
 
+### Contributions, issues, and feature requests are welcome!
+
 Feel free to check [issues page](https://github.com/huzaifakhan0308/vet_clinic/issues).
 
 ## ⭐️ Show your support <a name="support"></a>
