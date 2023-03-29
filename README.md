@@ -1,22 +1,20 @@
-# vet_clinic
-
 # 📗 Table of Contents
 
-- [📗 Table of Contents](#-table-of-contents)
-- [📖 vet_clinic Database ](#-vet-clinic-database-)
-  - [🛠 Built With ](#-built-with-)
-    - [Key Features ](#key-features-)
-    - [Tech Stack ](#tech-stack-)
-  - [🚀 Live Demo ](#-live-demo-)
-  - [💻 Getting Started ](#-getting-started-)
-    - [Prerequisites](#prerequisites)
-    - [Setup](#setup)
-    - [Install](#install)
-    - [Usage](#usage)
-  - [👥 Author ](#-author-)
-  - [🤝 Contributing ](#-contributing-)
-  - [🙏 Acknowledgments ](#-acknowledgments-)
-  - [📝 License ](#-license-)
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
 # 📖 Vet clinic Database <a name="about-project"></a>
 
@@ -24,21 +22,23 @@
 
 ## 🛠 Built With <a name="built-with"></a>
 
+### Tech Stack <a name="tech-stack"></a>
+
+<details>
+<summary>Database</summary>
+<ul><li>Postgresql</li></ul>
+</details>
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ### Key Features <a name="key-features"></a>
 
 - **[CREATE DATABASE]**
 - **[INSERT ANIMALS]**
 - **[QUERY ANIMALS]**
 
-### Tech Stack <a name="tech-stack"></a>
-
-HTML | CSS | JS | ES6 | React
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Live Demo Link](UNAVAILABLE)
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -46,43 +46,30 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need:
-
-- PostgreSQL server installed and running
-- psql installed
+In order to run this project you need: PostgreSQL
 
 ### Setup
 
-Clone this repository to your desired folder:
+Clone this repo by copying https://github.com/huzaifakhan0308/vet_clinic.git 
+and run the sql files.
 
-  `git clone https://github.com/huzaifakhan0308/vet_clinic.git`
+### Install
 
-### Connect to your PostgreSQL server with psql
-
-```
-  psql
-```
-
-### Create the database
-
-```
-  CREATE DATABASE vet_clinic;
+Install this project with:
+```sh
+psql -U <username> -d <databasename> -f schema.sql
 ```
 
-### Connect to the database
+### Usage
 
+To run the project, execute the following command:
+```sh
+psql -U <username> -d <databasename> -f queries.sql
 ```
-  \c vet_clinic
-```
-
-- Use [schema.sql](./schema.sql) to create all tables.
-- Use [data.sql](./data.sql) to populate tables with sample data.
-- Check [queries.sql](./queries.sql) for examples of queries that can be run on a newly created database. **Important note: this file might include queries that make changes in the database (e.g., remove records). Use them responsibly!**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-## 👥 Author <a name="author"></a>
+## 👥 Authors <a name="author"></a>
 
 👤 **Huzaifa khan**
 
@@ -92,8 +79,17 @@ Clone this repository to your desired folder:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Future Features <a name="key-features"></a>
+
+- **[Implementing data validation]**
+- **[Integration with external APIs]**
+- **[Enhancement of data visualization capabilities]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🤝 Contributing <a name="contributing"></a>
+
+### Contributions, issues, and feature requests are welcome!
 
 Feel free to check [issues page](https://github.com/huzaifakhan0308/vet_clinic/issues).
 
