@@ -6,7 +6,6 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo]()
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -43,10 +42,6 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- Live demo not available at this time
-
 ## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
@@ -57,7 +52,8 @@ In order to run this project you need: PostgreSQL
 
 ### Setup
 
-Clone the repo and run the sql files.
+Clone this repo by copying https://github.com/huzaifakhan0308/vet_clinic.git 
+and run the sql files.
 
 ### Install
 
