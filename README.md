@@ -1,5 +1,3 @@
-# vet_clinic
-
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -81,7 +79,7 @@ psql -U <username> -d <databasename> -f queries.sql
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Future Features <a name="key-features"></a>
+## Future Features <a name="key-features"></a>
 
 - **[Implementing data validation]**
 - **[Integration with external APIs]**
