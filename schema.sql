@@ -14,13 +14,13 @@ ALTER TABLE animals
 ADD COLUMN species TEXT
 
 CREATE TABLE owners (
-	id SERIAL PRIMARY KEY,
+	id SERIAL PRIMARY KEY NOT NULL,,
 	full_name text,
 	age int
 );
 
 CREATE TABLE species (
-	id SERIAL PRIMARY KEY,
+	id SERIAL PRIMARY KEY NOT NULL,,
 	name text
 );
 
