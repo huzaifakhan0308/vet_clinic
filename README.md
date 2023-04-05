@@ -29,14 +29,16 @@
 <ul><li>Postgresql</li></ul>
 </details>
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Key Features <a name="key-features"></a>
 
-- **[CREATE DATABASE]**
-- **[INSERT ANIMALS]**
-- **[QUERY ANIMALS]**
+- **Create animals table**
+- **Query and update animals table**
+- **Query multiple tables**
+- **Add "join table" for visits**
+- **Database performance audit**
+- **Database schema diagram**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -50,12 +52,13 @@ In order to run this project you need: PostgreSQL
 
 ### Setup
 
-Clone this repo by copying https://github.com/huzaifakhan0308/vet_clinic.git 
+Clone this repo by copying https://github.com/huzaifakhan0308/vet_clinic.git
 and run the sql files.
 
 ### Install
 
 Install this project with:
+
 ```sh
 psql -U <username> -d <databasename> -f schema.sql
 ```
@@ -63,6 +66,7 @@ psql -U <username> -d <databasename> -f schema.sql
 ### Usage
 
 To run the project, execute the following command:
+
 ```sh
 psql -U <username> -d <databasename> -f queries.sql
 ```
@@ -76,6 +80,12 @@ psql -U <username> -d <databasename> -f queries.sql
 - GitHub: [@huzaifakhan0308](https://github.com/huzaifakhan0308)
 - Twitter: [@huzaifakhan0308](https://twitter.com/home?lang=en)
 - LinkedIn: [huzaifa khan](https://www.linkedin.com/in/huzaifa-khan-938140256/)
+
+👤 **James Serengia**
+
+- GitHub: [@serengia](https://github.com/serengia)
+- Twitter: [@jamesserengia](https://twitter.com/jamesserengia)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/james-serengia)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
