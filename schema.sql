@@ -62,3 +62,10 @@ CREATE TABLE visits (
   FOREIGN KEY (vet_id) REFERENCES vets (id) ON DELETE CASCADE,
   FOREIGN KEY (animal_id) REFERENCES animals (id) ON DELETE CASCADE
 );
+
+-- Table optimization
+ALTER TABLE owners ADD COLUMN email VARCHAR(120);
+
+CREATE INDEX animals_id_asc ON visits(animals_id ASC);
+CREATE INDEX vets_id_asc ON visits(vets_id ASC);
+CREATE INDEX email_asc ON owners(email ASC);
