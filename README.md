@@ -33,9 +33,12 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[CREATE DATABASE]**
-- **[INSERT ANIMALS]**
-- **[QUERY ANIMALS]**
+- **Create animals table**
+- **Query and update animals table**
+- **Query multiple tables**
+- **Add "join table" for visits**
+- **Database performance audit**
+- **Database schema diagram**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
